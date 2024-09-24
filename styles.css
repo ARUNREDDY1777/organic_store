@@ -1,0 +1,72 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #b9bfc8;
+    font-family: Arial, sans-serif;
+}
+
+.profile-card {
+    background-color:transparent;
+    width: 500px;
+    padding: 35px;
+    background-color: #ffffff6a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.profile-card img {
+    background-image:url("arun.png");
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.profile-card h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.profile-card p {
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color:black
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #44b757; /* LinkedIn color */
+    transition: background-color 0.3s;
+}
+
+.social-links a:hover {
+    background-color: #d00c51;
+}
+
+/* Specific styles for each social link */
+#instagram {
+    background-color: #04c34d; /* Instagram color */
+}
+
+#instagram:hover {
+    background-color: #c13584;
+}
+
+
